@@ -1,0 +1,51 @@
+/* General Styles for the Home Page */
+.homepage-container {
+    margin-top: 50px;
+    padding: 0 20px; /* Add some padding for better spacing */
+  }
+  
+  .homepage-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #004080; /* Dark blue color */
+  }
+  
+  .homepage-content {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the items do not wrap */
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align the content to the top */
+    margin-top: 30px;
+    gap: 20px; /* Add a small gap between items */
+  }
+  
+  .homepage-image {
+    flex: 1;
+    max-width: 45%; /* Set the image width */
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px; /* Add margin to the right */
+  }
+  
+  .homepage-text {
+    flex: 1;
+    background-color: #e0f7fa; /* Light cyan background */
+    max-width: 450%; /* Set the text box width */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #004080; /* Dark blue color */
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #333; /* Dark gray color for better readability */
+  }
+  

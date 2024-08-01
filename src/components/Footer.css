@@ -1,0 +1,28 @@
+/* Footer.css */
+footer {
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer .list-unstyled {
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .list-unstyled li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer .list-unstyled li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .list-unstyled li:last-child {
+    margin-bottom: 0;
+  }
+  

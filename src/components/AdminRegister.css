@@ -1,0 +1,112 @@
+/* AdminRegister.css */
+
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px; /* Add padding to the container */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.register-page h2 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px; /* Reduced padding */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensure padding is included in width and height */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.password-strength {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.password-strength.strong {
+  color: green;
+}
+
+.password-strength.medium {
+  color: orange;
+}
+
+.password-strength.weak {
+  color: red;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #9e67fd;
+  color: white;
+  margin-top: 15px;
+
+}
+
+button:hover {
+  background-color: #7a7e9c;
+}
+
+.otp-method,
+.otp-input {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.otp-method div,
+.otp-input div {
+  margin: 10px 0;
+}
+
+.otp-method input[type="radio"] {
+  margin-right: 10px;
+}
+
+.otp-method button,
+.otp-input button {
+  width: auto;
+  padding: 8px 20px;
+}
+
+.verifyOtpButton{
+  height: 35px;
+  
+}

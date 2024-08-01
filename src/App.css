@@ -1,5 +1,8 @@
+/* General Styles for the App Component */
 .App {
   text-align: center;
+  max-width: 100vw; 
+  overflow-x: hidden; /* Ensure no horizontal scrolling */
 }
 
 .App-logo {
